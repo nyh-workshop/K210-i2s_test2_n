@@ -1,32 +1,15 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+autom4te.cache
+build
+build_i
+config.log
+config.status
+Makefile
+.DS_Store
+!/regression/Makefile
+.vs
+.vscode
+CMakeSettings.json
+.idea
+*.tar
+*.tar.*
+cmake-build-*
